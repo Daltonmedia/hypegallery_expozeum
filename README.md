@@ -1,4 +1,3 @@
-# hypeGallery-Museum
 Museum plugin for hypeGallery
 
 FEATURES
