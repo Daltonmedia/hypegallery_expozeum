@@ -13,7 +13,7 @@ FEATURES
 NOTES
 =====
 1. Images must be complete public, since the museum is a public place, if images are selected that are not public, the user will get a notification asking him to make his album public.
-Untill he does, his image won't appear in the museum and will be deleted after a week.
+Untill he does, his image won't appear in the museum and will be 'unset' after a week.
 2. Daily Cron 'must' be configured for garbage items to be collected and removed.
 3. This is a hypeGallery addon, so hypeGallery must be installed and enabled for this to work.
 [hypeGallery](https://github.com/hypejunction/hypeGallery "hypeGallery")
