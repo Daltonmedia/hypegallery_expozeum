@@ -1,4 +1,4 @@
-    .expozeum-item {
+.expozeum-item {
         max-width:33%;
     }
 @media screen and (max-width: 480px) {
@@ -11,4 +11,8 @@
     .expozeum-item {
         max-width:50%;
     }
+}
+.elgg-icon-eye-alt:before {
+content: "\f06e";
+color: limegreen;
 }
