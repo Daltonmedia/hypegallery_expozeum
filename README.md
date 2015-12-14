@@ -9,7 +9,7 @@ FEATURES
 2. Curator roles can be given to a user, using the admin user hover menu.
 3. Adds a new responsive museum page with a topbar menu item.
 4. Owners of the image will get a message that they are selected.
-5. Owners of images that are selected but are 'not public' will get a message that they were selected, but won't be in the museum untill they change theire album privacy to 'public'. If after a week they still haven't. Their image will be toggled unset for the museum again by the daily cron.
+5. Owners of images that are selected but are 'not public' will get a message that they were selected, but won't be in the museum untill they change their album privacy to 'public'. If after a week they still haven't. Their image will be toggled unset for the museum again by the daily cron.
 6. User has a usersettings page for the museum, giving them the option to 'not be curated'. This means their images can't be selected by the curators.
 7. When users visit the usersettings page and they currently have items in the museum, they will be warned that setting the option to 'no' will remove their image(s) from the museum.
 8. If they proceed and set their setting to 'no', all current museum items of the user will be unset and the items will not appear in the museum anymore.
