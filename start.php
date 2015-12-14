@@ -67,7 +67,7 @@ function expozeum_usersettings_hook($hook_name, $entity_type, $return_value, $pa
 
 }
 //TODO get ONLY the entities where the metadatstring 'expozeum's time_created < $time
-/*function expozeum_cron($hook, $entity_type, $returnvalue, $params) {
+function expozeum_cron($hook, $entity_type, $returnvalue, $params) {
 	echo elgg_echo('expozeum:clean:done');
     $time = time() - (7 * 24 * 60 * 60);
     $db_prefix = elgg_get_config('dbprefix');
@@ -83,5 +83,9 @@ function expozeum_usersettings_hook($hook_name, $entity_type, $return_value, $pa
         'limit' => 0,
         'wheres' => array('e.access_id != ' . ACCESS_PUBLIC),
         );
-}*/
+    $illegals = elgg_get_entities_from_metadata($options);
+    foreach ($illegals as $illegal) {
+        unset($entity->expozeum);
+    }
+}
 
