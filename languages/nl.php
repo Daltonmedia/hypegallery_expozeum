@@ -5,10 +5,9 @@ return array(
 	'expozeum:intro' => "Welcome in het Expozeum, hier zie je een selectie die onze curatoren maken met werk dat volgens ons '<i>net dat ietsje meer</i>' heeft",
 	'expozeum:intro:you' => "Onze curatoren selecteren regelmatig foto's die we goed genoeg vinden voor het Expozeum",
 	'expozeum:no_results' => "Er zijn voorlopig nog geen werken geselecteerd voor het Expozeum, kom later even terug.",
-    'expozeum_content:sidebar:title' => 'GeExpozeerde inhoud',
 
 	'expozeum_content:expozeum:success' => 'GeExpozeerd',
-	'expozeum_content:expozeum:onhold' => 'Deze foto is niet publiek, en zal on hold staan tot de eigenaar goedkeuring geeft.',
+	'expozeum_content:expozeum:onhold' => 'Deze foto is niet publiek, en zal on hold staan tot de eigenaar goedkeuring geeft. Er is een boodschap naar de eigenaar verstuurd',
 	'expozeum_content:unexpozeum:success' => 'Niet meer GeExpozeerd',
 
 	'expozeum_content:make_curator' => 'Voeg curator rol toe',
