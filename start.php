@@ -81,7 +81,7 @@ function expozeum_usersettings_hook($hook_name, $entity_type, $return_value, $pa
            ),
 
         'limit' => 0,
-        //'wheres' => array('e.access_id = ' . ACCESS_PUBLIC),
+        'wheres' => array('e.access_id != ' . ACCESS_PUBLIC),
         );
 }*/
 
