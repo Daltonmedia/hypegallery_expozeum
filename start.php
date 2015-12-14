@@ -82,7 +82,7 @@ function expozeum_usersettings_hook($hook_name, $entity_type, $return_value, $pa
 
         'limit' => 0,
         'wheres' => array('e.access_id != ' . ACCESS_PUBLIC),
+        //TODO get ONLY the entities where the metadatstring 'expozeum's time_created < $time
         );
 }*/
 
-//nodig: NIET-PUBLIEKE entities waar expozeum=true langer dan een week geleden gezet is
