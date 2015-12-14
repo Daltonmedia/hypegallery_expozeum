@@ -1,4 +1,5 @@
 Museum plugin for hypeGallery
+========
 This is a plugin that adds a public museum in Elgg for hypeGallery photos. Assigned curators can toggle images as 'selected' which will appear in the Museum.
 It has a user setting for owners which they can toggle in the case they don't want to be selected for the museum if they wish and sends notifications when photo's are selected for the museum.
 
