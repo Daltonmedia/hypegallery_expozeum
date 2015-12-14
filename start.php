@@ -69,8 +69,6 @@ function expozeum_usersettings_hook($hook_name, $entity_type, $return_value, $pa
 //TODO get ONLY the entities where the metadatstring 'expozeum's time_created < $time
 function expozeum_cron($hook, $entity_type, $returnvalue, $params) {
     $time = time() - (7 * 24 * 60 * 60);
-    $db_prefix = elgg_get_config('dbprefix');
-    echo $time;
     $options = array(
         'type' => 'object',
         'subtype' => 'hjalbumimage',
