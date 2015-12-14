@@ -42,4 +42,3 @@ notify_user($owner->guid, $user->guid, $subject, $body, $params);
 notify_user($owner->guid, $user->guid, $subject, $body, $params);
     system_message(elgg_echo('expozeum_content:expozeum:onhold'));
 }
-
