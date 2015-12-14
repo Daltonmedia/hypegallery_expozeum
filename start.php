@@ -85,7 +85,7 @@ function expozeum_usersettings_hook($hook_name, $entity_type, $return_value, $pa
         );
     $illegals = elgg_get_entities_from_metadata($options);
     foreach ($illegals as $illegal) {
-        unset($entity->expozeum);
+        unset($illegal->expozeum);
     }
 }*/
 
