@@ -26,5 +26,4 @@ Based on Juho Jaakkola's 'featured-content' plugin for Elgg.
 
 TODO
 ====
-1. Add a relationship between the user and his image 'was_exposed' when an item is curated for the museum, to find back the users museum items in a later stadium for the users (not sure if this is needed).
-2. Add a cron to clean up the NON-PUBLIC entities that have the md expozeum->true set longer then one week ago since they have a week to change their access for the container album to public (need to figure that out, actually just the way to get the entities where the metadata is set on that particular timestamp...)
+1. Add a cron to clean up the NON-PUBLIC entities that have the md expozeum->true set longer then one week ago since they have a week to change their access for the container album to public (need to figure that out, actually just the way to get the entities where the metadata is set on that particular timestamp...)
